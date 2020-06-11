@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;700&display=swap');
+
+/*
+    Colores
+    Naranja:#f67c3c
+    Otro Naranja:#F36A3A
+    Gris Claro:#4e6a78
+    Gris Oscuro:#393D46
+    Negro: #242633
+*/
+
+html{
+    box-sizing: border-box !important;
+    font-size: 62.5% !important; /* 1rem = 10 px;*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1{font-size: 4.8rem;}  h2{font-size: 4rem;} h3{font-size: 3.2rem;} h4{font-size: 2.8rem;}
+
+/* Globales */
+img{
+    max-width: 100%;
+}
+
+figure{
+    margin:0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+/* Header - Nav*/
+
+.header{
+    background-color: #242633 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7rem;
+}
+
+.menu, .menu ul, .menu ul li{
+    height: inherit;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.link a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding:0 10px;
+    color: white;
+}
+
+.link a:hover{
+    color:#F36A3A;
+    transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+
+
+/* Hero */
+
+.hero{
+    height: 50rem;
+    background-color:#323445;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.hero-title-social,.hero-introduction{
+    width: 25%;
+    height: 30rem;
+    display: grid;
+}
+
+.hero-introduction-title{
+    font-weight: 600;
+}
+
+.hero-introduction-details{
+    font-weight:300;
+}
+
+
+/* About */
+
+.about{
+    background-color: #242633;
+    color: white;
+    display: block;
+}
+
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-experience, .about-details{
+    width: 30%;
+    height: 200px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-rows: 33% 33% 33%;
+}
+
+
+.about-experience-title,.about-details-title{
+    width:90%;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.about-experience-description{
+    width:90%;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.about-contact-me{
+    width:90%;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #F36A3A;
+}
+
+    
+
+.about-experience-icons,.about-experience-icon{
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.about-experience-icon span, .about-experience-icon p{
+    padding: 1rem;
+}
+
+.fancy-number{
+    font-size: 4rem;
+    color: #F36A3A;
+    font-weight: 400;
+}
+
+.fancy-number-description{
+    font-size: 1.4rem;
+}
+
+.about-cards{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 2rem;
+}
+
+.about-card{
+    padding: inherit;
+    margin:0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 15rem;
+    width: 15rem;
+    background-color: #404556;
+}
+
+.about-card.orange{
+    background-color: #F36A3A;
+
+}
+
+.about-title-container{
+    display: flex;
+    align-items: center;
+}
+
+.about-card-title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-left: 1.3rem;
+}
+
+
+.about-card-description{
+    font-weight: 300;
+    font-size: 1rem;
+    padding-right: 1.3rem;
+}
+
+.about-card-icon{
+    margin-bottom: 1.2rem;
+}
+
+
+
+.container {
+    /* border: 1px solid red; */
+    width: 120rem;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    flex-direction: inherit;
+    padding: inherit;
+}
+
