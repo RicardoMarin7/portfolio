@@ -41,7 +41,18 @@ ul {
 
 a, a:hover{
     text-decoration: none;
+    margin: 0;
 }
+
+/* Utilidades Globales */
+.no-margin{
+    margin:0;
+}
+
+.text-center{
+    text-align:center;
+}
+
 /* Header - Nav*/
 
 .header{
@@ -87,18 +98,41 @@ a, a:hover{
     justify-content: center;
 }
 
-.hero-title-social,.hero-introduction{
-    width: 25%;
+.hero-title{
+    font-size: 7rem;
+}
+
+.hero-title-social, .hero-introduction{
+    width: 30%;
     height: 30rem;
-    display: grid;
+    display:grid;
+}
+
+.hero-introduction{
+    grid-template-rows: 30% 36% 30%;
+    grid-row-gap: 10px;
 }
 
 .hero-introduction-title{
     font-weight: 600;
+    font-size: 2rem;
 }
 
 .hero-introduction-details{
     font-weight:300;
+}
+
+.hero-introduction-about-me{
+    font-weight: 600;
+    color:#f67c3c;
+    text-decoration: underline #f67c3c;
+    margin-right: 1rem;
+}
+
+.hero-introduction-about-me-container{
+    display: flex;
+    align-items: center;
+    width: 13rem;
 }
 
 
@@ -142,7 +176,7 @@ a, a:hover{
     width:90%;
     font-size: 1rem;
     font-weight: 600;
-    color: #F36A3A;
+    color: #f67c3c;
 }
 
     
